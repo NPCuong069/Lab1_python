@@ -3,7 +3,6 @@
 
 # Exercise 1:
 
-
 from datetime import date
 # Enter student information
 name = str(input("Enter your name: "))
@@ -18,9 +17,11 @@ current_year= date.today().year
 def get_information():
     study_year =current_year- entrance_year
     print("My name is "+name+", I am",age,"years old, \nI am",study_year,"year student a Greenwich")
+    
 get_information()
 
 # Exercise 2:
+
 # Input text
 text = input("Enter a text: ")
 order = int(input("Enter an order: "))
